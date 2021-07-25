@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpg" type="img/jpg">
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <h1>Welcome to the Akan Name Generator</h1>
+        <p>This web application uses your birthday details to determine your Akan Name based on your gender and the day of the week you were born. Derived from Ghanian culture, Akan Names are given to children as a 'day name' that corresponds to the day in the week they were born. Learn more about them <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">here</a></p>
+        <p>Fill the form below to get started and find out what your Akan name is.
+          <form class="myform" onsubmit="return getAkanName()">
+
+            <label for="day-of-birth">
+              Day:
+              <input id="day-input" type="number" min="1" max="31" name="day-of-birth" placeholder="DD" value="" required>
+            </label>
+  
+            <label for="month-of-birth">
+              Month:
+              <input id="month-input" type="number" min="1" max="12" name="month-of-birth" placeholder="MM" value="" required>
+            </label>
+  
+            <label for="year-of-birth">
+              Year:
+              <input id="year-input" type="number" min="1900" max="2021" name="year-of-birth" placeholder="YYYY" value="" required>
+            </label>
+  
+            <br>
+            <br>
+  
+            <label for="gender">
+              Gender:
+              <input id="male-input" type="radio" name="gender" value="male" required>
+              Male
+              <input id="female-input" type="radio" name="gender" value="female" required>
+              Female
+            
+            </label>
+            <br><br>
+            <input id="get-name" type="submit" name="" value="Show my Akan name">
+            <br><br>
+          </form>
+          <form onsubmit="return clearInput()">
+            <input class="clear" type="submit" value="Start over">
+          </form>
+
+        <p id = display-name>Fill the form to reveal your Akan name:</p>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <script src="script/script.js" ></script>
+
+  </body>
+</html>

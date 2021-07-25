@@ -1,0 +1,82 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../images/back.jpg');
+  color: white;
+  font-size: 17px;
+}
+
+h1{
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+#year-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+#month-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+#day-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+#get-name{
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0ba71f;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 150px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+}
+
+.content{
+  background-color:#0701012c;
+  /* height: 600px; */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  border-radius: 0.5%;
+}
+
+.research{
+  color: #4adb2d;
+}
+
+.clear{
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #fc7216;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: bold;
+}
